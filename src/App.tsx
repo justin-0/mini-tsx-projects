@@ -1,7 +1,8 @@
-import { Todos } from './todo';
+// import { Todos } from './todo';
+import Dragdrop from './dragdrop';
 
 const App = () => {
-	return <Todos />;
+	return <Dragdrop />;
 };
 
 export default App;

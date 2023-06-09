@@ -37,3 +37,24 @@ h4 {
 	padding: 15px;
 	text-align: center;
 }
+
+/* Drag Drop */
+
+.drop-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.drag-item,
+.drag-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.drop-zone {
+	height: 600px;
+	border: 2px solid blue;
+	width: 100%;
+}
