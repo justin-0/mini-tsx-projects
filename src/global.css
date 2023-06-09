@@ -1,0 +1,39 @@
+.todo-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 100px;
+}
+
+input {
+	padding: 10px;
+}
+
+input + button {
+	padding: 10px;
+}
+
+h4 {
+	font-size: 30px;
+}
+
+.todo-grid-parent {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.todo-grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 25px;
+}
+
+.todo-item {
+	border: 1px solid black;
+	border-radius: 4px;
+	padding: 15px;
+	text-align: center;
+}
