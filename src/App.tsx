@@ -1,8 +1,9 @@
 // import { Todos } from './todo';
+import Cart from './cart';
 import Dragdrop from './dragdrop';
 
 const App = () => {
-	return <Dragdrop />;
+	return <Cart />;
 };
 
 export default App;

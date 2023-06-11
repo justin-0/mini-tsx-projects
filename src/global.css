@@ -58,3 +58,10 @@ h4 {
 	border: 2px solid blue;
 	width: 100%;
 }
+
+.cart {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
